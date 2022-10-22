@@ -42,23 +42,108 @@
 /* Section card */
 
 .section_card {
-    width: 100%;
-    height: 250px;
+    width: 100vw;
+    max-width: 950px;
+    height: 259px;
     position: relative;
 }
 
-.section_card_div{
+.section_card_div {
     width: 100%;
     height: 100%;
-    position: absolute;
     display: flex;
-    justify-content: space-around;
-    align-items: center;
-    top: -150px;
+    flex-wrap: wrap;
 }
 
-.section_div_cards {
-    width: 25%;
+.section_containerCard {
+    max-width: 250px;
+    width: auto;
     height: 350px;
-    background-color: #f5f5f5;
+    background-color: rgb(33, 33, 33);
+    color: #ffffff;
+    font-family: "Poppins", sans-serif;
+    border-radius: 5px;
+    margin-top: 10px;
+    box-shadow: rgba(50, 50, 93, 0.25) 0px 13px 27px -5px,
+        rgba(0, 0, 0, 0.3) 0px 8px 16px -8px;
+}
+
+.section_divCard {
+    width: 90%;
+    height: 33.3%;
+    padding: 10px;
+}
+
+.section_divCard_img {
+    width: 100%;
+    height: 33.3%;
+}
+
+.section_divCard_img img {
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+}
+
+.section_divCard_titulo {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    width: 90%;
+    height: 33.3%;
+    margin: 25px auto;
+    box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
+}
+
+.section_divCard_titulo .section_divCard_titulo_div_h4 {
+    width: 100%;
+    height: 25%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: .7rem;
+}
+
+.section_divCard_titulo .section_divCard_titulo_div_p {
+    width: 100%;
+    padding: 10px;
+}
+
+.section_divCard_titulo .section_divCard_titulo_div_p p {
+    width: 100%;
+    color: #c5c5c5;
+    font-size: .8rem;
+    white-space: nowrap;
+    overflow: hidden;
+    text-overflow: ellipsis;
+}
+
+.section_divCard_titulo_div_p h6 {
+    text-align: center;
+    padding: 10px;
+    font-size: .7rem;
+}
+
+.section_divCard_button {
+    cursor: pointer;
+    width: 90%;
+    background-color: #f83232;
+    text-align: center;
+}
+
+.section_divCard_button button {
+    width: 130px;
+    cursor: pointer;
+    font-family: "Poppins", sans-serif;
+    font-size: .9rem;
+    height: 35px;
+    background-color: transparent;
+    outline: none;
+    color: #ffffff;
+    border: none;
+}
+
+.section_divCard_button {
+    border: 1px solid rgb(150, 11, 11);
 }
