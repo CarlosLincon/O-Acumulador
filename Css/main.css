@@ -1,7 +1,7 @@
 /* Section container main */
 .section_main_container {
     width: 100vw;
-    height: 75vh;
+    height: 80vh;
 }
 
 .container_main {
@@ -17,13 +17,15 @@
 /* Section slider */
 .section_slider {
     width: 100%;
-    height: 75%;
+    height: 50%;
     position: relative;
+    
 }
 
 .section_slider_div {
     width: 100%;
     height: 100%;
+    
 
 }
 
@@ -48,6 +50,7 @@
 
     .section_slider {
         min-height: 75vh;
+        
     }
 
     .section_slider_div {
@@ -80,8 +83,8 @@
 .section_card {
     width: 100vw;
     max-width: 950px;
-    height: 259px;
-    position: relative;
+    height: 50%;
+
 }
 
 .section_card_div {
@@ -89,8 +92,7 @@
     height: 100%;
     display: flex;
     flex-wrap: wrap;
-    position: absolute;
-    top: -250px;
+    
 }
 
 
@@ -104,16 +106,14 @@
     color: #ffffff;
     border-radius: 5px;
     margin-top: 10px;
-    box-shadow: rgba(50, 50, 93, 0.25) 0px 13px 27px -5px,
-        rgba(0, 0, 0, 0.3) 0px 8px 16px -8px;
     position: relative;
-
+    box-shadow: rgba(14, 30, 37, 0.12) 0px 2px 4px 0px, rgba(14, 30, 37, 0.32) 0px 2px 16px 0px;
 }
 
 .section_containerCard:nth-child(2) {
 
     background-image: linear-gradient(160deg, #5ffa06 0%, #6fe22c 100%);
-
+    
 }
 
 .section_containerCard:nth-child(3) {
@@ -129,18 +129,21 @@
     display: flex;
     justify-content: center;
     align-items: center;
-
+  
 }
 
 .section_divCard_img {
     width: 100%;
     height: 33.3%;
+    
 }
 
 .section_divCard_img img {
     width: 100%;
     height: 100%;
     object-fit: cover;
+    border-radius: 5px;
+
 }
 
 .section_divCard_img_icon {
@@ -148,15 +151,16 @@
     height: 50px;
     position: absolute;
     top: 85px;
-    left: calc(50% - 25px);
     border-radius: 50%;
+    left: calc(50% - 25px);
     background-color: #ffffff;
+    
 }
 
 .section_divCard_img_icon img {
     width: 100%;
     height: 100%;
-    object-fit: cover;
+    object-fit: cover;    
 }
 
 .section_divCard_titulo {
@@ -175,12 +179,14 @@
 .section_divCard_titulo .section_divCard_titulo_div_h4 {
     width: 100%;
     height: 25%;
+    padding: 10px;
+    text-align: center;
     display: flex;
     justify-content: center;
     align-items: center;
     font-size: .75rem;
     color: rgb(49, 49, 49);
-    font-family: 'Teko', sans-serif;
+    font-family: 'Ubuntu', sans-serif;
 
 
 }
@@ -240,9 +246,6 @@
     .section_card {
         position: absolute;
         top: 0;
-        -webkit-backdrop-filter: blur(10px);
-        backdrop-filter: blur(1px);
-        background-color: rgba(255, 255, 255, 0.068);
         height: 75vh;
         overflow-x: scroll;
     }
