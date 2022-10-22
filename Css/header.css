@@ -1,0 +1,66 @@
+header {
+    position: relative;
+    height: 150px;
+    width: 100vw;
+    background-color: #8d0d3b;
+    background-image: linear-gradient(160deg, #8d0d3b 0%, #d04143 100%);
+    display: flex;
+    justify-content: center;
+    border-bottom: 1px solid transparent;
+    border-color: #8BC6EC;
+    border-image: linear-gradient(135deg, #8BC6EC 0%, #9599E2 100%);
+    border-image-slice: 1;
+}
+
+
+
+
+
+header div {
+    background-color: #ffff;
+    width: 195px;
+    height: 195px;
+    position: absolute;
+    bottom: -75%;
+    display: flex;
+    justify-content: center;
+    cursor: pointer;
+    user-select: none;
+    border: solid 1px transparent;
+    border-radius: 50%;
+    background-image: linear-gradient(white, white),
+    linear-gradient(135deg, #8BC6EC 0%, #9599E2 100%);
+    background-origin: border-box;
+    background-clip: content-box, border-box;
+}
+
+header div a {
+    width: 100%;
+    height: 100%;
+    display: flex;
+    justify-content: center;
+}
+
+
+header div a h1 {
+    font-family: 'Teko', sans-serif;
+    color: #a51e0c;
+    font-size: 1.5rem;
+    font-weight: bold;
+    background-image: linear-gradient(to bottom, rgb(255, 0, 0), rgb(250, 58, 0), rgb(243, 227, 7));
+    background-clip: text;
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+    color: black;
+    position: absolute;
+    bottom: 110px;
+}
+
+
+header div a img {
+    width: 50px;
+    height: 50px;
+    position: absolute;
+    top: 10px;
+
+}
