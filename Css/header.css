@@ -1,14 +1,27 @@
+/*
+* Prefixed by https://autoprefixer.github.io
+* PostCSS: v8.4.14,
+* Autoprefixer: v10.4.7
+* Browsers: last 4 version
+*/
+
 header {
     position: relative;
     height: 150px;
     width: 100vw;
     background-color: #8d0d3b;
+    background-image: -o-linear-gradient(290deg, #8d0d3b 0%, #d04143 100%);
     background-image: linear-gradient(160deg, #8d0d3b 0%, #d04143 100%);
+    display: -webkit-box;
+    display: -ms-flexbox;
     display: flex;
-    justify-content: center;
+    -webkit-box-pack: center;
+        -ms-flex-pack: center;
+            justify-content: center;
     border-bottom: 1px solid transparent;
     border-color: #8BC6EC;
-    border-image: linear-gradient(135deg, #8BC6EC 0%, #9599E2 100%);
+    -o-border-image: -o-linear-gradient(315deg, #8BC6EC 0%, #9599E2 100%);
+       border-image: linear-gradient(135deg, #8BC6EC 0%, #9599E2 100%);
     border-image-slice: 1;
 }
 
@@ -22,12 +35,21 @@ header div {
     height: 195px;
     position: absolute;
     bottom: -75%;
+    display: -webkit-box;
+    display: -ms-flexbox;
     display: flex;
-    justify-content: center;
+    -webkit-box-pack: center;
+        -ms-flex-pack: center;
+            justify-content: center;
     cursor: pointer;
-    user-select: none;
+    -webkit-user-select: none;
+       -moz-user-select: none;
+        -ms-user-select: none;
+            user-select: none;
     border: solid 1px transparent;
     border-radius: 50%;
+    background-image: -o-linear-gradient(white, white),
+    -o-linear-gradient(315deg, #8BC6EC 0%, #9599E2 100%);
     background-image: linear-gradient(white, white),
     linear-gradient(135deg, #8BC6EC 0%, #9599E2 100%);
     background-origin: border-box;
@@ -37,8 +59,12 @@ header div {
 header div a {
     width: 100%;
     height: 100%;
+    display: -webkit-box;
+    display: -ms-flexbox;
     display: flex;
-    justify-content: center;
+    -webkit-box-pack: center;
+        -ms-flex-pack: center;
+            justify-content: center;
 }
 
 
@@ -47,6 +73,8 @@ header div a h1 {
     color: #a51e0c;
     font-size: 1.5rem;
     font-weight: bold;
+    background-image: -webkit-gradient(linear, left top, left bottom, from(rgb(255, 0, 0)), color-stop(rgb(250, 58, 0)), to(rgb(243, 227, 7)));
+    background-image: -o-linear-gradient(top, rgb(255, 0, 0), rgb(250, 58, 0), rgb(243, 227, 7));
     background-image: linear-gradient(to bottom, rgb(255, 0, 0), rgb(250, 58, 0), rgb(243, 227, 7));
     background-clip: text;
     -webkit-background-clip: text;

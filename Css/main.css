@@ -1,3 +1,10 @@
+/*
+* Prefixed by https://autoprefixer.github.io
+* PostCSS: v8.4.14,
+* Autoprefixer: v10.4.7
+* Browsers: last 4 version
+*/
+
 /* Section container main */
 .section_main_container {
     width: 100vw;
@@ -16,10 +23,19 @@
     position: relative;
     background-color: #f5f5f5;
     padding: 1.5rem;
+    display: -webkit-box;
+    display: -ms-flexbox;
     display: flex;
-    justify-content: center;
-    align-items: center;
-    flex-direction: column;
+    -webkit-box-pack: center;
+        -ms-flex-pack: center;
+            justify-content: center;
+    -webkit-box-align: center;
+        -ms-flex-align: center;
+            align-items: center;
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+        -ms-flex-direction: column;
+            flex-direction: column;
     background-color: #202C45;
 }
 
@@ -31,6 +47,7 @@
     font-family: 'Roboto', sans-serif;
     color: #f5f5f5;
     background-color: #8d0d3b;
+    background-image: -o-linear-gradient(290deg, #8d0d3b 0%, #d04143 100%);
     background-image: linear-gradient(160deg, #8d0d3b 0%, #d04143 100%);
     margin-bottom: 50px;
 }
@@ -44,6 +61,7 @@
     width: 100%;
     height: 50%;
     background-color: #0093E9;
+    background-image: -o-linear-gradient(290deg, #0093E9 0%, #80D0C7 100%);
     background-image: linear-gradient(160deg, #0093E9 0%, #80D0C7 100%);
     padding: 10px;
     margin: 50px;
@@ -58,10 +76,19 @@
 .section_slider_div a {
     width: 55%;
     height: 100%;
+    display: -webkit-box;
+    display: -ms-flexbox;
     display: flex;
-    align-items: center;
-    justify-content: center;
-    flex-direction: column;
+    -webkit-box-align: center;
+        -ms-flex-align: center;
+            align-items: center;
+    -webkit-box-pack: center;
+        -ms-flex-pack: center;
+            justify-content: center;
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+        -ms-flex-direction: column;
+            flex-direction: column;
     background-color: #f5f5f5;
     max-width: 550px;
 }
@@ -71,8 +98,10 @@
     height: 50%;
     max-height: 550px;
     padding: 10px;
-    object-fit: contain;
-    box-shadow: rgba(50, 50, 93, 0.25) 0px 2px 5px -1px, rgba(0, 0, 0, 0.3) 0px 1px 3px -1px;
+    -o-object-fit: contain;
+       object-fit: contain;
+    -webkit-box-shadow: rgba(50, 50, 93, 0.25) 0px 2px 5px -1px, rgba(0, 0, 0, 0.3) 0px 1px 3px -1px;
+            box-shadow: rgba(50, 50, 93, 0.25) 0px 2px 5px -1px, rgba(0, 0, 0, 0.3) 0px 1px 3px -1px;
 }
 
 .section_slider_div_h1 {
@@ -84,6 +113,7 @@
     font-family: 'Roboto', sans-serif;
     color: #f5f5f5;
     background-color: #8d0d3b;
+    background-image: -o-linear-gradient(290deg, #8d0d3b 0%, #d04143 100%);
     background-image: linear-gradient(160deg, #8d0d3b 0%, #d04143 100%);
 
 }
@@ -104,7 +134,8 @@
     .section_slider_div_img {
         width: 100%;
         height: 100%;
-        object-fit: cover;
+        -o-object-fit: cover;
+           object-fit: cover;
     }
 
     .section_slider_div_blur {
@@ -127,10 +158,19 @@
 
     height: 50%;
     margin: 0;
+    display: -webkit-box;
+    display: -ms-flexbox;
     display: flex;
-    align-items: center;
-    justify-content: center;
-    flex-direction: column;
+    -webkit-box-align: center;
+        -ms-flex-align: center;
+            align-items: center;
+    -webkit-box-pack: center;
+        -ms-flex-pack: center;
+            justify-content: center;
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+        -ms-flex-direction: column;
+            flex-direction: column;
     padding: 10px;
 
 }
@@ -139,9 +179,15 @@
 .section_card_div {
     width: 100%;
     height: 100%;
+    display: -webkit-box;
+    display: -ms-flexbox;
     display: flex;
 
-    justify-content: center;
+    -webkit-box-pack: center;
+
+        -ms-flex-pack: center;
+
+            justify-content: center;
 }
 
 
@@ -155,18 +201,25 @@
     border-radius: 5px;
     margin-top: 10px;
     background-color: #FAD961;
+    background-image: -webkit-gradient(linear, left top, right top, from(#FAD961), to(#F76B1C));
+    background-image: -o-linear-gradient(left, #FAD961 0%, #F76B1C 100%);
     background-image: linear-gradient(90deg, #FAD961 0%, #F76B1C 100%);
     position: relative;
-    box-shadow: rgba(14, 30, 37, 0.12) 0px 2px 4px 0px, rgba(14, 30, 37, 0.32) 0px 2px 16px 0px;
+    -webkit-box-shadow: rgba(14, 30, 37, 0.12) 0px 2px 4px 0px, rgba(14, 30, 37, 0.32) 0px 2px 16px 0px;
+            box-shadow: rgba(14, 30, 37, 0.12) 0px 2px 4px 0px, rgba(14, 30, 37, 0.32) 0px 2px 16px 0px;
 }
 
 .section_containerCard:nth-child(2) {
+
+    background-image: -o-linear-gradient(290deg, #5ffa06 0%, #6fe22c 100%);
 
     background-image: linear-gradient(160deg, #5ffa06 0%, #6fe22c 100%);
 
 }
 
 .section_containerCard:nth-child(3) {
+
+    background-image: -o-linear-gradient(290deg, #070000 0%, #ee0e0e 100%);
 
     background-image: linear-gradient(160deg, #070000 0%, #ee0e0e 100%);
 
@@ -177,9 +230,15 @@
     width: 90%;
     height: 33.3%;
     padding: 10px;
+    display: -webkit-box;
+    display: -ms-flexbox;
     display: flex;
-    justify-content: center;
-    align-items: center;
+    -webkit-box-pack: center;
+        -ms-flex-pack: center;
+            justify-content: center;
+    -webkit-box-align: center;
+        -ms-flex-align: center;
+            align-items: center;
 
 }
 
@@ -194,7 +253,9 @@
     width: 100%;
     height: 100%;
 
-    object-fit: cover;
+    -o-object-fit: cover;
+
+       object-fit: cover;
     border-radius: 5px;
 
 }
@@ -213,19 +274,30 @@
 .section_divCard_img_icon img {
     width: 100%;
     height: 100%;
-    object-fit: cover;
+    -o-object-fit: cover;
+       object-fit: cover;
 }
 
 .section_divCard_titulo {
+    display: -webkit-box;
+    display: -ms-flexbox;
     display: flex;
-    justify-content: center;
-    align-items: center;
-    flex-direction: column;
+    -webkit-box-pack: center;
+        -ms-flex-pack: center;
+            justify-content: center;
+    -webkit-box-align: center;
+        -ms-flex-align: center;
+            align-items: center;
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+        -ms-flex-direction: column;
+            flex-direction: column;
     background-color: #f5f5f5;
     width: 90%;
     height: 33.3%;
     margin: 25px auto;
-    box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
+    -webkit-box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
+            box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
     cursor: pointer;
 }
 
@@ -234,9 +306,15 @@
     height: 25%;
     padding: 10px;
     text-align: center;
+    display: -webkit-box;
+    display: -ms-flexbox;
     display: flex;
-    justify-content: center;
-    align-items: center;
+    -webkit-box-pack: center;
+        -ms-flex-pack: center;
+            justify-content: center;
+    -webkit-box-align: center;
+        -ms-flex-align: center;
+            align-items: center;
     font-size: .75rem;
     color: rgb(49, 49, 49);
     font-family: 'Ubuntu', sans-serif;
@@ -251,7 +329,10 @@
     padding: 10px;
     overflow: hidden;
     text-align: justify;
-    user-select: none;
+    -webkit-user-select: none;
+       -moz-user-select: none;
+        -ms-user-select: none;
+            user-select: none;
 
 }
 
@@ -274,7 +355,8 @@
     width: 80%;
     background-color: #850909;
     text-align: center;
-    box-shadow: rgba(9, 30, 66, 0.25) 0px 4px 8px -2px, rgba(9, 30, 66, 0.08) 0px 0px 0px 1px;
+    -webkit-box-shadow: rgba(9, 30, 66, 0.25) 0px 4px 8px -2px, rgba(9, 30, 66, 0.08) 0px 0px 0px 1px;
+            box-shadow: rgba(9, 30, 66, 0.25) 0px 4px 8px -2px, rgba(9, 30, 66, 0.08) 0px 0px 0px 1px;
 }
 
 
@@ -300,7 +382,8 @@
         width: 100vw;
         height: 75%;
         overflow-x: scroll;
-        box-shadow: rgba(50, 50, 93, 0.25) 0px 2px 5px -1px, rgba(0, 0, 0, 0.3) 0px 1px 3px -1px;
+        -webkit-box-shadow: rgba(50, 50, 93, 0.25) 0px 2px 5px -1px, rgba(0, 0, 0, 0.3) 0px 1px 3px -1px;
+                box-shadow: rgba(50, 50, 93, 0.25) 0px 2px 5px -1px, rgba(0, 0, 0, 0.3) 0px 1px 3px -1px;
         margin-bottom: 10px;
         padding: 10px;
         background-color: #f5f5f5;
@@ -310,9 +393,14 @@
 
     .section_card_div {
         position: initial;
+        display: -webkit-box;
+        display: -ms-flexbox;
         display: flex;
-        align-items: center;
-        flex-wrap: nowrap;
+        -webkit-box-align: center;
+            -ms-flex-align: center;
+                align-items: center;
+        -ms-flex-wrap: nowrap;
+            flex-wrap: nowrap;
         margin: 0;
         max-width: 100%;
         width: auto;
