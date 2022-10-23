@@ -1,0 +1,101 @@
+/*
+* Prefixed by https://autoprefixer.github.io
+* PostCSS: v8.4.14,
+* Autoprefixer: v10.4.7
+* Browsers: last 4 version
+*/
+
+.section_slider {
+    width: 100vw;
+    margin: 0;
+    height: 50%;
+    background-color: #0093E9;
+    background-image: -o-linear-gradient(290deg, #0093E9 0%, #80D0C7 100%);
+    background-image: linear-gradient(160deg, #0093E9 0%, #80D0C7 100%);
+    padding: 10px;
+
+}
+
+.section_slider_div {
+    width: 100%;
+    height: 100%;
+    padding: 10px;
+}
+
+.section_slider_div a {
+    width: 55%;
+    height: 100%;
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-align: center;
+        -ms-flex-align: center;
+            align-items: center;
+    -webkit-box-pack: center;
+        -ms-flex-pack: center;
+            justify-content: center;
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+        -ms-flex-direction: column;
+            flex-direction: column;
+    background-color: #f5f5f5;
+    max-width: 550px;
+}
+
+.section_slider_div_img {
+    width: 100%;
+    height: 50%;
+    max-height: 550px;
+    padding: 10px;
+    -o-object-fit: contain;
+       object-fit: contain;
+    -webkit-box-shadow: rgba(50, 50, 93, 0.25) 0px 2px 5px -1px, rgba(0, 0, 0, 0.3) 0px 1px 3px -1px;
+            box-shadow: rgba(50, 50, 93, 0.25) 0px 2px 5px -1px, rgba(0, 0, 0, 0.3) 0px 1px 3px -1px;
+}
+
+.section_slider_div_h1 {
+    width: 50%;
+    max-width: 350px;
+    padding: 1.5rem;
+    text-align: center;
+    margin: 25px auto;
+    font-family: 'Roboto', sans-serif;
+    color: #f5f5f5;
+    background-color: #8d0d3b;
+    background-image: -o-linear-gradient(290deg, #8d0d3b 0%, #d04143 100%);
+    background-image: linear-gradient(160deg, #8d0d3b 0%, #d04143 100%);
+
+}
+
+@media (max-width: 640px) {
+
+    .section_slider {
+        height: 100%;
+
+    }
+
+    .section_slider_div {
+        width: 100%;
+        height: 100%;
+
+    }
+
+    .section_slider_div_img {
+        width: 100%;
+        height: 100%;
+        -o-object-fit: cover;
+           object-fit: cover;
+    }
+
+    .section_slider_div_blur {
+        width: 100%;
+        height: 100%;
+        position: absolute;
+        top: 0;
+        /*
+        -webkit-backdrop-filter: blur(10px);
+        backdrop-filter: blur(10px);
+        background-color: rgba(255, 255, 255, 0.3); */
+    }
+
+}
