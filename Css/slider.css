@@ -4,7 +4,7 @@
 * Autoprefixer: v10.4.7
 * Browsers: last 4 version
 */
-/*
+
 .section_slider {
     width: 100vw;
     margin: 0;
@@ -98,9 +98,9 @@
         background-color: rgba(255, 255, 255, 0.3); 
     }
 
-} */
+} 
 
-.slider-container {
+/* .slider-container {
     position: relative;
     overflow: hidden;
     min-width: 1050px;
@@ -189,4 +189,4 @@
     transform: translateY(-100%);
     border-top-right-radius: 5px;
     border-bottom-right-radius: 5px;
-}
+} */
