@@ -35,12 +35,14 @@ if (largura < 1250) {
         <p>Na maior loja de bateria na Alagoinhas! </p>
     </div>
 </div>
+<a href="https://www.instagram.com/oacumuladorbaterias/" target="_blank">
 <div class="right-slide">
     <div style="background-image: url('./Images/SliderIMG1.jfif')"></div>
     <div style="background-image: url('./Images/SliderIMG2.jfif')"></div>
     <div style="background-image: url('./Images/SliderIMG3.jfif')"></div>
     <div style="background-image: url('./Images/sliderIMG4.jfif');"></div>
 </div>
+</a>
 <div class="action-buttons">
     <button class="down-button">
         <i class="fas fa-arrow-down"> &darr;</i>
@@ -137,12 +139,14 @@ function mudandoElementoNoHtml() {
             <p>Na maior loja de bateria na Alagoinhas! </p>
         </div>
     </div>
+    <a href="https://www.instagram.com/oacumuladorbaterias/" target="_blank">
     <div class="right-slide">
         <div style="background-image: url('./Images/SliderIMG1.jfif')"></div>
         <div style="background-image: url('./Images/SliderIMG2.jfif')"></div>
         <div style="background-image: url('./Images/SliderIMG3.jfif')"></div>
         <div style="background-image: url('./Images/sliderIMG4.jfif');"></div>
     </div>
+    </a>
     <div class="action-buttons">
         <button class="down-button">
             <i class="fas fa-arrow-down"> &darr;</i>
